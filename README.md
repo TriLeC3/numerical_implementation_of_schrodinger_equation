@@ -10,4 +10,6 @@ where $\hbar$ is plancks constant divided by $2\pi$, $\hat{H}$ is Hamiltonian of
 
 > Reference: N-Zettili Quantum Mechanics, Chapter 4.
 
-The Algorithm solves the schrodinger equation with the boundary conditions, $\psi(x_{min})=\psi(x_{max})=0.$ By solve I mean, finding wave function $\psi_n(x)$ and energy $E_n$ for the n-th excited state.
+The Algorithm solves the schrodinger equation with the boundary conditions, $\psi(x_{min})=\psi(x_{max})=0.$ By solve I mean, finding wave function $\psi_n(x)$ for given energy $E_n$ for the n-th excited state.
+
+To calculate the double derivatives we make use of "Numerov Algorithm".
